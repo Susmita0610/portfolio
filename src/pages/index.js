@@ -1,11 +1,18 @@
 import AboutMe from "@/components/AboutMe";
+import Awards from "@/components/Awards";
 import Contact from "@/components/Contact";
+import Course from "@/components/Course";
 import EducationBackground from "@/components/EducationBackground";
+import Events from "@/components/Events";
 import Experience from "@/components/Experience";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
+import Membership from "@/components/Membership";
+import Posterpatent from "@/components/Posterpatent";
+import Posterprep from "@/components/Posterprep";
 import Projects from "@/components/Projects";
+import Research from "@/components/Research";
 
 export default function Home() {
   return (
@@ -24,87 +31,28 @@ export default function Home() {
       
 
       {/* Paper/Patent Publications */}
-      <section id="publications" className="py-20 bg-gray-800">
-        <div className="container mx-auto px-6">
-          <h2 className="text-4xl font-bold mb-5">Paper/Patent Publications</h2>
-          <p className="max-w-3xl text-lg leading-relaxed">
-            Details of any published papers or patents can be added here.
-          </p>
-        </div>
-      </section>
+      <Posterpatent/>
 
       {/* Awards and Achievements */}
-      <section id="achievements" className="py-20">
-        <div className="container mx-auto px-6">
-          <h2 className="text-4xl font-bold mb-5">Awards and Achievements</h2>
-          <div className="bg-gray-700 p-5 rounded-lg">
-            <p>Smart India Hackathon Finalist</p>
-            <p>Geeks United HITK Coordinator</p>
-            <p>Google Developer Club Core Member</p>
-          </div>
-        </div>
-      </section>
+      <Awards/>
 
       {/* Projects Section */}
-      <Projects />
+      <Projects/>
 
       {/* Membership */}
-      <section id="membership" className="py-20 bg-gray-800">
-        <div className="container mx-auto px-6">
-          <h2 className="text-4xl font-bold mb-5">Membership</h2>
-          <p className="max-w-3xl text-lg leading-relaxed">
-            Member of various technical communities and developer clubs.
-          </p>
-        </div>
-      </section>
+      <Membership/>
 
       {/* Research Thrust Area */}
-      <section id="research" className="py-20">
-        <div className="container mx-auto px-6">
-          <h2 className="text-4xl font-bold mb-5">Research Thrust Area</h2>
-          <p className="max-w-3xl text-lg leading-relaxed">
-            My research interests include blockchain technology, decentralized
-            applications, and scalable software architectures.
-          </p>
-        </div>
-      </section>
+      <Research/>
 
       {/* List of Events (Organized/Attended) */}
-      <section id="events" className="py-20 bg-gray-800">
-        <div className="container mx-auto px-6">
-          <h2 className="text-4xl font-bold mb-5">
-            List of Events (Organized/Attended)
-          </h2>
-          <p className="max-w-3xl text-lg leading-relaxed">
-            Details of the events I have organized or attended, including
-            workshops, hackathons, and webinars.
-          </p>
-        </div>
-      </section>
+      <Events/>
 
       {/* Poster/Paper Presentation */}
-      <section id="presentation" className="py-20">
-        <div className="container mx-auto px-6">
-          <h2 className="text-4xl font-bold mb-5">Poster/Paper Presentation</h2>
-          <p className="max-w-3xl text-lg leading-relaxed">
-            Information about the posters or papers presented at various
-            conferences or seminars.
-          </p>
-        </div>
-      </section>
+      <Posterprep/>
 
       {/* Courses Completed */}
-      <section id="courses" className="py-20 bg-gray-800">
-        <div className="container mx-auto px-6">
-          <h2 className="text-4xl font-bold mb-5">
-            Courses Completed (NPTEL/COURSERA/LinkedIn Learning)
-          </h2>
-          <p className="max-w-3xl text-lg leading-relaxed">
-            List of courses completed, such as NPTEL, Coursera, and LinkedIn
-            Learning certifications.
-          </p>
-        </div>
-      </section>
+      <Course/>
       {/* Contact Section */}
       <Contact />
       {/* Footer */}

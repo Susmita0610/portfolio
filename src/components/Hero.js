@@ -12,13 +12,13 @@ export default function Hero() {
           alt="Picture of the author"
         />
         <h2 className="text-5xl md:text-6xl font-extrabold">
-          Hi, I'm <span className="text-blue-500">Subhranil</span>
+          Hi, I'm <span className="text-blue-500">Susmita</span>
         </h2>
         <p className="text-xl max-w-xl">
           A passionate{" "}
-          <span className="text-blue-500">Full-Stack Developer</span> and{" "}
+          <span className="text-blue-500">Software Engineer</span> and{" "}
           <span className="text-blue-500">Blockchain Enthusiast</span>. I love
-          building web and decentralized applications.
+          building web and to learn more things about hacking.
         </p>
         <a
           href="#projects"

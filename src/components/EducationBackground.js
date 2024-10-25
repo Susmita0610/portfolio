@@ -6,9 +6,9 @@ const EducationBackground = () => {
         <div className="container mx-auto px-6">
           <h2 className="text-4xl font-bold mb-5">Education Background</h2>
           <div className="bg-gray-700 p-5 rounded-lg">
-            <p>BTech in Computer Science and Engineering</p>
-            <p>Heritage Institute of Technology (2020-2024)</p>
-            <p>GPA: 8.6</p>
+            <p>BTech in Computer Science and Engineering specialisation in Cyber security</p>
+            <p>University of Engineering and Management (2020-2024)</p>
+            <p>Passed from Julien Day School ISC board </p>
           </div>
         </div>
       </section>
